@@ -1,3 +1,3 @@
 ## docs
-- [setup_wsl.md](setup_wsl.md)
+1. [setup_wsl.md](setup_wsl.md)
 
