@@ -17,6 +17,7 @@ $ sudo apt install -y cuda-toolkit-11-0
     - `/usr/loca/cuda/samples`以下で`sudo make`を実行
     - `./bin/x86_64/linux/releaseBlackScholes`
     > CUDA error at ../../common/inc/helper_cuda.h:777 code=35(cudaErrorInsufficientDriver) "cudaGetDeviceCount(&device_count)" 
+
         - osバージョンが19042.867で 20145以上じゃないのが原因
         - wsl2ではなくwsl1なのも原因
     > [./BlackScholes] - Starting...
@@ -55,3 +56,4 @@ Shutdown done.
 NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
 
 Test passed
+
